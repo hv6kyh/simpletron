@@ -7,7 +7,6 @@ MVC 패턴을 이용한 웹 게시판
 
 
 ## 스크린샷
--------
 
 ![index](./screenshot/index.PNG)   
 <index.jsp>   
@@ -38,18 +37,17 @@ MVC 패턴을 이용한 웹 게시판
 ![result](./screenshot/result.PNG)   
 <result.jsp>   
 
+*****
 
 
 
 ## 심플트론머신
-*****
 자바빈즈를 이용해 jsp와 자바 객체간의 데이터 송수신  
 4자리 심플트론코드를 앞, 뒤 두 자리씩 opcode와 operand로 분리  
 simpletron.java의 execute() 메소드에서 switch문으로 opcode에 따라 작업 처리  
 
-
-## 데이터베이스 연동
 *****
+## 데이터베이스 연동
 UserDAO.java
 ```java
 public UserDAO() {
@@ -75,3 +73,4 @@ public UserDAO() {
 }
 ```
 mysql과 연동을 위해 UserDAO.java 정의  (DAO;Data Access Object)  
+*****
